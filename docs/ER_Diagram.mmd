@@ -1,29 +1,30 @@
 erDiagram
 
-    Felhasználó{
-        felh_id integer PK
-        felh_név string
-        jelszo string
-        email_address string
-        tele_szám integer
+    Felhasználók{
+        id integer PK
+        name varchar(100)
+        password varchar(150)
+        email varchar(255)
+        telszam varchar(255)
     }
 
-    Kisállat{
-        pet_id integer PK
-        pet_név string
-        pet_faj string
-        pet_kor integer
-        pet_méret integer
-        pet_nem string
+    Kisállatok{
+        id integer PK
+        name varchar(50)
+        species enum
+        gender varchar(100)
+        age_year integer
+        description text
+        status enum "available, adopted"
     }
 
-    Örökbefogadás_Kérelem{
-        k_id integer PK
-        felh_id integer FK
+    Örökbefogadási_jelentkezések{
+        id integer PK
+        user_id integer FK
         pet_id integer FK
-        k_állapot string
-        k_dátum integer
+        motivation text
+        status enum "pending, approved, rejected"
     }
 
-        Felhasználó ||--o{ Örökbefogadás_Kérelem :Örökbefogadás
-        Kisállat ||--o{ Örökbefogadás_Kérelem : Kérelmek
+        Felhasználók ||--o{ Örökbefogadási_jelentkezések :Örökbefogadás
+        Kisállatok ||--o{ Örökbefogadási_jelentkezések : Kérelmek
