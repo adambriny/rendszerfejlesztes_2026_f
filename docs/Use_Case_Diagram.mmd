@@ -1,0 +1,21 @@
+usecase-beta
+direction LR
+
+actor F("Felhasználó")
+systemBoundary "Weboldal"
+  U1("Regisztráció")
+  U2("Regisztráció feltétel")
+  U3("Bejelentkezés")
+  U4("Bejelentkezés feltétel")
+  U5("Keresés")
+  T1("Nincs találat")
+  T2("Van találtat")
+  
+end
+F --> U1
+U1..> : include U2
+F --> U3
+U3..> : include U4
+F --> U5
+U5..> : extend T1
+U5..> : extend T2

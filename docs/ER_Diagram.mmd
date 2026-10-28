@@ -1,0 +1,29 @@
+erDiagram
+
+    Felhasználó{
+        felh_id integer PK
+        felh_név string
+        jelszo string
+        email_address string
+        tele_szám integer
+    }
+
+    Kisállat{
+        pet_id integer PK
+        pet_név string
+        pet_faj string
+        pet_kor integer
+        pet_méret integer
+        pet_nem string
+    }
+
+    Örökbefogadás_Kérelem{
+        k_id integer PK
+        felh_id integer FK
+        pet_id integer FK
+        k_állapot string
+        k_dátum integer
+    }
+
+        Felhasználó ||--o{ Örökbefogadás_Kérelem :Örökbefogadás
+        Kisállat ||--o{ Örökbefogadás_Kérelem : Kérelmek
