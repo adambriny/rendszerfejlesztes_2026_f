@@ -1,0 +1,4 @@
+# A feltöltések mappában PHP-fájl ne futhasson (biztonsági okból)
+<FilesMatch "\.(php|phtml|phar)$">
+    Require all denied
+</FilesMatch>
