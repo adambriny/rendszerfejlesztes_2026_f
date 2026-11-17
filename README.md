@@ -3,10 +3,6 @@
 
 A téma egy *kisállat örökbefogadásáról* szóló weboldal lesz. A terv, hogy ez a weboldal **tiszta és áttekinthető** legyen, míg **egyszerű és megérthető funkciót** kínál a felhasználó számára.
 
-## A fejlesztők és feladataik (wip)
-
-A fejlesztők feladatai elkülönbözhetnek, de minden fejlesztő a projektmunkában próbál a **kommunikáció és az összhangoltság** fenntartásához, illetve a feladat **egyszerűsítés és közös megbeszélés** odafigyeléséhez.
-
 ## SMART projektcél
 
 - **S (Specific):** Egy olyan weboldalt hozunk létre, ahol a látogatók böngészhetik az örökbefogadható állatokat (szűréssel), az adminisztrátorok pedig új állatokat tölthetnek fel, módosíthatják vagy törölhetik azokat (CRUD műveletek).
@@ -30,6 +26,10 @@ A fejlesztők feladatai elkülönbözhetnek, de minden fejlesztő a projektmunk�
 - **Örökbefogadási jelentkezési űrlap és validáció:** Egy adott állat adatlapjáról elérhető űrlap, ahol az örökbefogadó megadhatja az adatait (név, telefon, motivációs leírás). Az űrlap nem küldhető el üres mezőkkel vagy hibás e-mail formátummal (kliens és szerveroldali validáció). A sikeres jelentkezés mentésre kerül az adatbázisba 'Függőben' státusszal.
 
 ## Szervezeti felépítés és felelősségmegosztás
+
+### A fejlesztők és feladataik (wip)
+
+A fejlesztők feladatai elkülönbözhetnek, de minden fejlesztő a projektmunkában próbál a **kommunikáció és az összhangoltság** fenntartásához, illetve a feladat **egyszerűsítés és közös megbeszélés** odafigyeléséhez.
 
 A csoportban 2 fő vesz részt:
 
