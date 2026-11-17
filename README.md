@@ -1,12 +1,4 @@
 # Kisállat örökbefogadás weboldal
-
-## F csoport
-A csoportban 2 fő vesz részt: 
-
-• [Gazdik Bálint](https://github.com/just4jase) – Frontendért felelős fejlesztő
-
-• [Szabó Patrícia](https://github.com/SzaboPatricia) – Backendért és adatbázisért felelős fejlesztő
-
 ### A téma és a tervezés (wip)
 
 A téma egy *kisállat örökbefogadásáról* szóló weboldal lesz. A terv, hogy ez a weboldal **tiszta és áttekinthető** legyen, míg **egyszerű és megérthető funkciót** kínál a felhasználó számára.
@@ -36,4 +28,23 @@ A fejlesztők feladatai elkülönbözhetnek, de minden fejlesztő a projektmunk�
 **Kisállat-katalógus és dinamikus szűrés:** Egy olyan aloldal létrehozása, ahol az összes örökbefogadható állat megjelenik kártya (Card) formátumban. A felhasználónak tudnia kell szűrni faj (kutya/macska) és kor szerint is.
 
 **Örökbefogadási jelentkezési űrlap és validáció:** Egy adott állat adatlapjáról elérhető űrlap, ahol az örökbefogadó megadhatja az adatait (név, telefon, motivációs leírás). Az űrlap nem küldhető el üres mezőkkel vagy hibás e-mail formátummal (kliens és szerveroldali validáció). A sikeres jelentkezés mentésre kerül az adatbázisba 'Függőben' státusszal.
+
+## Szervezeti felépítés és felelősségmegosztás
+
+A csoportban 2 fő vesz részt:
+
+| Név | Szerepkör |
+| --- | --- |
+| [Gazdik Bálint](https://github.com/just4jase) | Frontendért felelős fejlesztő
+| [Szabó Patrícia](https://github.com/SzaboPatricia) | Backendért és adatbázisért felelős fejlesztő
+
+## A munka feltételei
+
+| Terület | Eszközök |
+| --- | --- |
+| Verziókezelés és feladatkezelés |	GitHub
+| Csapatkommunikáció | Messenger, Email
+| Kódszerkesztő program | Visual Studio Code
+| Helyi fejlesztőkörnyezet | XAMPP (Apache, MySQL)
+| Bemutatási környezet | Egyetemi szerver vagy saját laptop
 
